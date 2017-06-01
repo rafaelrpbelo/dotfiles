@@ -1,0 +1,18 @@
+[user]
+	email = rafaelrpbelo@gmail.com
+	name = Rafael Belo
+[alias]
+	s = status
+	co = checkout
+	df = diff
+	dfc = diff --cached
+	ci = commit
+	b = branch
+	lone = log --oneline --decorate
+  lgraph = log --graph --oneline --decorate
+	p = push
+	up = pull --rebase
+[core]
+	editor = vim
+[branch]
+	autosetuprebase = always
