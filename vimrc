@@ -60,3 +60,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-v>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+" ControlP settings
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip " Ignore files
