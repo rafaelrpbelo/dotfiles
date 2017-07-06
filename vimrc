@@ -63,4 +63,4 @@ let g:UltiSnipsJumpBackwardTrigger="<c-v>"
 let g:UltiSnipsEditSplit="vertical"
 
 " ControlP settings
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip " Ignore files
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules " Ignore files
