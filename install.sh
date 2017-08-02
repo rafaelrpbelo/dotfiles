@@ -9,5 +9,7 @@ cp xinitrc ~/.xinitrc
 cp Xresources ~/.Xresources
 cp config/i3/config ~/.config/i3/config
 cp config/i3status/config ~/.config/i3status/config
+cp config/i3status/config ~/.config/i3status/config
+cp config/dunst/dunstrc ~/.config/dunst/dunstrc
 
 logout
