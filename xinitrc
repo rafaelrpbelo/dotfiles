@@ -16,6 +16,9 @@ setxkbmap -layout us -variant mac   -option   -option altwin:swap_lalt  # -optio
 # Load X settings
 xrdb -load ~/.Xresources
 
+# Start Dunst (notifications alert)
+dunst &
+
 # I3 config
 exec i3
 
