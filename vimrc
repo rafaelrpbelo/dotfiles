@@ -13,6 +13,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'posva/vim-vue'
 call vundle#end()
 
 filetype plugin indent on
