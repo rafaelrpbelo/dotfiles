@@ -18,6 +18,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()
 
 filetype plugin indent on
@@ -66,8 +67,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#branch#enabled = 1
 
-" Snippets settings
-let g:UltiSnipsExpandTrigger="<tab>"
+" Snippets settings let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-v>"
 
@@ -76,3 +76,6 @@ let g:UltiSnipsEditSplit="vertical"
 
 " ControlP settings
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules " Ignore files
+
+" Git settings
+set updatetime=250
