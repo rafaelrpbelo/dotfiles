@@ -1,4 +1,4 @@
-xterm*faceName: Hack:size=9:antialias=true
+xterm*faceName: Hack:size=11:antialias=true
 
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 
