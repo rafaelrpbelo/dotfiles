@@ -1,4 +1,4 @@
-xterm*faceName: Hack:size=11:antialias=true
+xterm*faceName: xft:Hack:size=11:antialias=true,xfg:FontAwesome:hinting=true:size=11
 
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 
