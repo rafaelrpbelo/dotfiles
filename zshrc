@@ -15,6 +15,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto' 
 
 alias chrome='google-chrome-stable'
+alias tmux='tmux -2'
 
 # Auto start tmux.
 #
