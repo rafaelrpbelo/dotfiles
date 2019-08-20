@@ -14,6 +14,10 @@ Plugin 'honza/vim-snippets'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'posva/vim-vue'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'edkolev/tmuxline.vim'
 call vundle#end()
 
 filetype plugin indent on
@@ -49,11 +53,18 @@ nnoremap <PageDown> gT
 set t_Co=256
 set t_ut=
 let g:solarized_termtrans = 1
-let g:solarized_termcolors = 16
+let g:solarized_termcolors = 256
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
 set background=dark
 colorscheme solarized
+
+" Airline
+let g:airline_theme="solarized"
+let g:airline_solarized_bg="dark"
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#branch#enabled = 1
 
 " Snippets settings
 let g:UltiSnipsExpandTrigger="<tab>"
