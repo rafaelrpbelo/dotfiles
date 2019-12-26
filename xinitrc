@@ -13,6 +13,9 @@ xscreensaver -nosplash &
 # Setting keyboard Apple
 setxkbmap -layout us -variant mac   -option   -option altwin:swap_lalt  # -option ctrl:nocaps
 
+# Setting keyboard Apple with XFCE
+#setxkbmap -layout us -variant mac -option altwin:swap_lalt_lwin
+
 # Load X settings
 xrdb -load ~/.Xresources
 
