@@ -5,6 +5,7 @@ source ~/.zprofile
 
 alias dkcp='docker-compose'
 alias grepa='grep --color=always'
+alias ag='ag --pager=less'
 
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
