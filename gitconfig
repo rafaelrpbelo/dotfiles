@@ -12,6 +12,7 @@
   lgraph = log --graph --oneline --decorate
 	p = push
 	up = pull --rebase
+  sum = shortlog -s -n --all --no-merges
 [core]
 	editor = vim
 [branch]
