@@ -80,3 +80,6 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules " Ignore files
 
 " Git settings
 set updatetime=250
+
+" Netrw settings
+let g:netrw_liststyle = 3
