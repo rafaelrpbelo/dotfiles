@@ -15,10 +15,11 @@ Plugin 'digitaltoad/vim-pug'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'posva/vim-vue'
 Plugin 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'edkolev/tmuxline.vim'
+"Plugin 'vim-airline/vim-airline'
+"Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'edkolev/tmuxline.vim'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'rhysd/vim-crystal'
 call vundle#end()
 
 filetype plugin indent on
