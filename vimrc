@@ -3,9 +3,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'slim-template/vim-slim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'elixir-lang/vim-elixir'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'raimondi/delimitmate'
 Plugin 'mattn/emmet-vim'
@@ -13,13 +11,12 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'posva/vim-vue'
 Plugin 'tpope/vim-fugitive'
 "Plugin 'vim-airline/vim-airline'
 "Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'edkolev/tmuxline.vim'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'rhysd/vim-crystal'
+Plugin 'sheerun/vim-polyglot'
 call vundle#end()
 
 filetype plugin indent on
