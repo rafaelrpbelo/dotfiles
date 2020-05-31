@@ -27,6 +27,7 @@ set expandtab
 set number
 set noswapfile
 set colorcolumn=120
+set backupcopy=yes
 
 syntax enable
 
