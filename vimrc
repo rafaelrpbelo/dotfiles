@@ -26,6 +26,7 @@ set shiftwidth=2
 set expandtab
 set number
 set noswapfile
+set colorcolumn=120
 
 syntax enable
 
