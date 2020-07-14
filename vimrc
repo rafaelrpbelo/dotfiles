@@ -14,6 +14,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'ap/vim-css-color'
+Plugin 'zxqfl/tabnine-vim'
 call vundle#end()
 
 filetype plugin indent on
