@@ -13,6 +13,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'ap/vim-css-color'
 call vundle#end()
 
 filetype plugin indent on
