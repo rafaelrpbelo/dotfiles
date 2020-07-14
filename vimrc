@@ -58,19 +58,10 @@ let g:solarized_contrast = "high"
 set background=dark
 colorscheme solarized
 
-" Airline
-"let g:airline_theme="solarized"
-"let g:airline_solarized_bg="dark"
-"let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#branch#enabled = 1
-
-" Snippets settings let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-v>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
+" Fix gitgutter left sidebar color
+highlight SignColumn ctermbg=235
+let g:gitgutter_override_sign_column_highlight = 0
+let g:gitgutter_set_sign_backgrounds = 0
 
 " ControlP settings
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules " Ignore files
