@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'sheerun/vim-polyglot'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'hail2u/vim-css3-syntax'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
@@ -184,5 +186,14 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-tsserver',
-  \ 'coc-eslint'
+  \ 'coc-eslint',
+  \ 'coc-css'
   \ ]
+
+" coc-css settings
+autocmd FileType scss setl iskeyword+=@-@
+
+" Support syntax highlight in very long files
+"   https://github.com/styled-components/vim-styled-components#breaking-syntax-highlighting-in-very-long-files
+autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
+autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
