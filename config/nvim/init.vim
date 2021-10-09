@@ -3,6 +3,16 @@ Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
+" Show line numbers
+set number
+
+" Adjust spaces & tabs
+set expandtab
+set smarttab
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+
 " === CoC settings ===
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
