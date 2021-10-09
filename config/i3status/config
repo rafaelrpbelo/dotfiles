@@ -16,6 +16,7 @@ order += "disk /"
 order += "wireless _first_"
 order += "ethernet _first_"
 order += "battery 0"
+order += "tztime ca"
 order += "tztime local"
 
 wireless _first_ {
@@ -42,6 +43,11 @@ battery 0 {
 
 tztime local {
         format = " %H:%M %d/%m/%Y"
+}
+
+tztime ca {
+        format = "CA: %H:%M"
+        timezone = "Canada/Pacific"
 }
 
 disk "/" {
