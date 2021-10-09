@@ -1,7 +1,13 @@
 call plug#begin('~/.vim/plugged')
+" Syntax highlighting
 Plug 'sheerun/vim-polyglot'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'hail2u/vim-css3-syntax'
+
+" File Finder
+Plug 'kien/ctrlp.vim'
+
+" Intelisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
@@ -197,3 +203,7 @@ autocmd FileType scss setl iskeyword+=@-@
 "   https://github.com/styled-components/vim-styled-components#breaking-syntax-highlighting-in-very-long-files
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+
+" ControlP settings
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules " Ignore files
+let g:ctrlp_user_command = ['.git/', 'git ls-files --cached --others  --exclude-standard %s']
