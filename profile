@@ -9,6 +9,7 @@ if [ "$DESKTOP_SESSION" = "i3" ]; then
 
     # Set keyboard settings
     setxkbmap -layout us -variant mac -option altwin:swap_lalt_lwin
+    xset r rate 220 70
 
     # Settings for monitor
     # RIGHT
