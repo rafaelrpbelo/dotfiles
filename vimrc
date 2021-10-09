@@ -15,10 +15,11 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'ap/vim-css-color'
 Plugin 'zxqfl/tabnine-vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'styled-components/vim-styled-components'
 call vundle#end()
 
-filetype plugin indent on
-
+set nocompatible
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -27,7 +28,13 @@ set noswapfile
 set colorcolumn=120
 set backupcopy=yes
 
+" Visibility helpers
+"set cursorline
+"set cursorcolumn
+
 syntax enable
+
+filetype plugin indent on
 
 " Set Gemfile as ruby file
 autocmd BufNewFile,BufRead Gemfile set syntax=ruby
@@ -65,9 +72,15 @@ let g:gitgutter_set_sign_backgrounds = 0
 
 " ControlP settings
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules " Ignore files
+let g:ctrlp_user_command = ['.git/', 'git ls-files --cached --others  --exclude-standard %s']
 
 " Git settings
 set updatetime=250
 
 " Netrw settings
 let g:netrw_liststyle = 3
+
+" Coc
+let g:coc_global_extensions = [
+  \ 'coc-tsserver'
+  \ ]
