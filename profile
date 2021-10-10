@@ -23,4 +23,3 @@ if [ "$DESKTOP_SESSION" = "i3" ]; then
     # Enable tapping to TouchPad
     # xinput set-prop 13 292 1
 fi
-
