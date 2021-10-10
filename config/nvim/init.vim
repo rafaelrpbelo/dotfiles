@@ -21,6 +21,31 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 
+" Delimeters
+"set cursorline
+"set cursorcolumn
+set colorcolumn=120 " Set a column at the position of 120 chars
+highlight ColorColumn ctermbg=darkgrey guibg=darkgrey " Set column color
+
+" Syntax
+syntax enable
+
+" Searching
+set hlsearch    " Set highlight search
+set incsearch   " Set searchs dynamic
+set ignorecase  " Case insensitive search
+set smartcase   " Smart case sensitive switching
+
+" Tab's Mappings
+nnoremap <F1> 1gt
+nnoremap <F2> 2gt
+nnoremap <F3> 3gt
+nnoremap <F4> 4gt
+nnoremap <F5> 5gt
+nnoremap <F6> 6gt
+nnoremap <PageUp> gt
+nnoremap <PageDown> gT
+
 " === CoC settings ===
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
