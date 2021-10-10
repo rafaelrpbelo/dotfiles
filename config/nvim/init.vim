@@ -9,6 +9,9 @@ Plug 'kien/ctrlp.vim'
 
 " Intelisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Git
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " Show line numbers
@@ -45,6 +48,14 @@ nnoremap <F5> 5gt
 nnoremap <F6> 6gt
 nnoremap <PageUp> gt
 nnoremap <PageDown> gT
+
+" === GitGutter ===
+highlight SignColumn ctermbg=235
+let g:gitgutter_override_sign_column_highlight = 0
+let g:gitgutter_set_sign_backgrounds = 0
+let g:gitgutter_grep = 'ag'
+let g:gitgutter_preview_win_floating = 1
+set signcolumn=yes
 
 " === CoC settings ===
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
