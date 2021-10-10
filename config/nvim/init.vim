@@ -12,6 +12,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Git
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 call plug#end()
 
 " Show line numbers
