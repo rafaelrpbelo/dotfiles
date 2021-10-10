@@ -14,6 +14,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
+
+" Theme
+Plug 'sp5/nvim-colors-solarized'
 call plug#end()
 
 " Show line numbers
@@ -30,7 +33,6 @@ set tabstop=2
 "set cursorline
 "set cursorcolumn
 set colorcolumn=120 " Set a column at the position of 120 chars
-highlight ColorColumn ctermbg=darkgrey guibg=darkgrey " Set column color
 
 " Syntax
 syntax enable
@@ -50,6 +52,12 @@ nnoremap <F5> 5gt
 nnoremap <F6> 6gt
 nnoremap <PageUp> gt
 nnoremap <PageDown> gT
+
+" === Color scheme ===
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
+call togglebg#map("<F12>")
 
 " === GitGutter ===
 highlight SignColumn ctermbg=235
