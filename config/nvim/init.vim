@@ -19,6 +19,7 @@ Plug 'tpope/vim-rhubarb'
 
 " Theme
 Plug 'sp5/nvim-colors-solarized'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 " Show line numbers
@@ -263,3 +264,15 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+" Lightline settings
+set noshowmode
+let g:lightline = {
+  \   'active': {
+  \     'left': [ [ 'mode', 'paste' ],
+  \               [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+  \   },
+  \   'component_function': {
+  \     'gitbranch': 'FugitiveHead'
+  \   },
+  \ }
