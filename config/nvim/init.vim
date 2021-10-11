@@ -52,6 +52,9 @@ set incsearch   " Set searchs dynamic
 set ignorecase  " Case insensitive search
 set smartcase   " Smart case sensitive switching
 
+" Mouse settings
+set mouse=a     " tell vim to recognize mouse commands in "all" mode
+
 " Tab's Mappings
 nnoremap <F1> 1gt
 nnoremap <F2> 2gt
