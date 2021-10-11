@@ -240,7 +240,8 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-eslint',
   \ 'coc-css',
-  \ 'coc-tabnine'
+  \ 'coc-tabnine',
+  \ 'coc-elixir'
   \ ]
 
 " coc-css settings
