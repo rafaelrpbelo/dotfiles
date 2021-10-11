@@ -19,6 +19,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
+Plug 'rhysd/git-messenger.vim'
 
 " Theme
 Plug 'sp5/nvim-colors-solarized'
@@ -295,3 +296,13 @@ let g:AutoPairsFlyMode = 1
 "
 " Ack
 let g:ackprg = 'ag --vimgrep'
+
+" GitMessenger
+" Normal color in popup window with 'CursorLine'
+hi link gitmessengerPopupNormal CursorLine
+" Header such as 'Commit:', 'Author:' with 'Statement' highlight group
+hi link gitmessengerHeader Statement
+" Commit hash at 'Commit:' header with 'Special' highlight group
+hi link gitmessengerHash Special
+" History number at 'History:' header with 'Title' highlight group
+hi link gitmessengerHistory Title
