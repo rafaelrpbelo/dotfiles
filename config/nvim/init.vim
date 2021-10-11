@@ -20,6 +20,9 @@ Plug 'tpope/vim-rhubarb'
 " Theme
 Plug 'sp5/nvim-colors-solarized'
 Plug 'itchyny/lightline.vim'
+
+" Delimiters
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " Show line numbers
@@ -276,3 +279,10 @@ let g:lightline = {
   \     'gitbranch': 'FugitiveHead'
   \   },
   \ }
+
+" Auto-pairs settings
+let g:AutoPairsShortcutToggle = '<F9>'
+let g:AutoPairsShortcutBackInsert = '<C-b>'
+let g:AutoPairsShortcutFastWrap = '<C-e>'
+let g:AutoPairsShortcutJump = '<C-n>'
+let g:AutoPairsFlyMode = 1
