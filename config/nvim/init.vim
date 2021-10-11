@@ -9,6 +9,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'mileszs/ack.vim'
+Plug 'preservim/nerdtree' |
+  \ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Intelisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
