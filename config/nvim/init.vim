@@ -8,6 +8,7 @@ Plug 'hail2u/vim-css3-syntax'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'mileszs/ack.vim'
 
 " Intelisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -286,3 +287,6 @@ let g:AutoPairsShortcutBackInsert = '<C-b>'
 let g:AutoPairsShortcutFastWrap = '<C-e>'
 let g:AutoPairsShortcutJump = '<C-n>'
 let g:AutoPairsFlyMode = 1
+"
+" Ack
+let g:ackprg = 'ag --vimgrep'
