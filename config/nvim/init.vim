@@ -6,6 +6,8 @@ Plug 'hail2u/vim-css3-syntax'
 
 " File Finder
 Plug 'kien/ctrlp.vim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " Intelisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -255,3 +257,9 @@ autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 " ControlP settings
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules " Ignore files
 let g:ctrlp_user_command = ['.git/', 'git ls-files --cached --others  --exclude-standard %s']
+
+" Telescope settings
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
