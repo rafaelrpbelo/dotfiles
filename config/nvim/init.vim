@@ -254,7 +254,8 @@ let g:coc_global_extensions = [
   \ 'coc-eslint',
   \ 'coc-css',
   \ 'coc-tabnine',
-  \ 'coc-elixir'
+  \ 'coc-elixir',
+  \ 'coc-solargraph'
   \ ]
 
 " coc-css settings
