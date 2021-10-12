@@ -70,7 +70,7 @@ nnoremap <PageDown> gT
 set background=dark
 colorscheme solarized
 let g:solarized_termcolors=256
-call togglebg#map("<F12>")
+call togglebg#map("<F11>")
 
 " === GitGutter ===
 highlight SignColumn ctermbg=235
@@ -306,3 +306,6 @@ hi link gitmessengerHeader Statement
 hi link gitmessengerHash Special
 " History number at 'History:' header with 'Title' highlight group
 hi link gitmessengerHistory Title
+
+" NERDTree
+nnoremap <F12> :NERDTreeToggle<CR>
