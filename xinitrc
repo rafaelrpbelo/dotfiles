@@ -43,3 +43,6 @@ exec i3
 
 # Init media center
 #exec xterm -fullscreen -maximized  -e ~/app/scripts/dialog-test.sh
+
+# Set default typematic delay and rate
+xset r rate 220 70
