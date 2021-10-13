@@ -17,8 +17,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Git
 Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
+Plug 'tpope/vim-fugitive' |
+  \ Plug 'tpope/vim-rhubarb'
 Plug 'rhysd/git-messenger.vim'
 
 " Theme
