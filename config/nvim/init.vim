@@ -27,6 +27,9 @@ Plug 'itchyny/lightline.vim'
 
 " Delimiters
 Plug 'jiangmiao/auto-pairs'
+
+" Misc
+Plug 'folke/which-key.nvim'
 call plug#end()
 
 " Show line numbers
