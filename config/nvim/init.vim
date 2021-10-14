@@ -28,6 +28,9 @@ Plug 'itchyny/lightline.vim'
 " Delimiters
 Plug 'jiangmiao/auto-pairs'
 
+" Terminal
+Plug 'voldikss/vim-floaterm'
+
 " Misc
 Plug 'folke/which-key.nvim'
 call plug#end()
@@ -68,6 +71,9 @@ nnoremap <F5> 5gt
 nnoremap <F6> 6gt
 nnoremap <PageUp> gt
 nnoremap <PageDown> gT
+
+" Commands
+command! Lazygit FloatermNew lazygit
 
 " === Color scheme ===
 set background=dark
@@ -313,3 +319,14 @@ hi link gitmessengerHistory Title
 
 " NERDTree
 nnoremap <F12> :NERDTreeToggle<CR>
+
+" Floaterm
+let g:floaterm_keymap_new = '<Leader>tn'
+let g:floaterm_keymap_prev = '<C-PageUp>'
+let g:floaterm_keymap_next = '<C-PageDown>'
+let g:floaterm_keymap_toggle = '<Leader>tt'
+let g:floaterm_keymap_kill = '<Leader>tk'
+let g:floaterm_width = 0.8
+let g:floaterm_height = 0.8
+let g:floaterm_autoclose = 1
+nnoremap <leader>tg <cmd>Lazygit<cr>
