@@ -332,3 +332,4 @@ let g:floaterm_height = 0.8
 let g:floaterm_autoclose = 1
 nnoremap <leader>tg <cmd>Lazygit<cr>
 nnoremap <leader>td <cmd>Lazydocker<cr>
+nnoremap <leader>te <cmd>FloatermNew --wintype=split --height=10<cr>
