@@ -33,6 +33,7 @@ Plug 'voldikss/vim-floaterm'
 
 " Misc
 Plug 'folke/which-key.nvim'
+Plug 'tpope/vim-rails'
 call plug#end()
 
 " Show line numbers
