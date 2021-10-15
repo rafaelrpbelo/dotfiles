@@ -1,4 +1,4 @@
 {
   "coc.preferences.jumpCommand": "tab drop",
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": false
 }
