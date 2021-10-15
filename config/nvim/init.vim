@@ -76,6 +76,7 @@ nnoremap <PageDown> gT
 " Commands
 command! Lazygit FloatermNew lazygit
 command! Lazydocker FloatermNew lazydocker
+command! Irb FloatermNew irb
 
 " === Color scheme ===
 set background=dark
@@ -334,3 +335,4 @@ let g:floaterm_autoclose = 1
 nnoremap <leader>tg <cmd>Lazygit<cr>
 nnoremap <leader>td <cmd>Lazydocker<cr>
 nnoremap <leader>te <cmd>FloatermNew --wintype=split --height=10<cr>
+nnoremap <leader>tr <cmd>Irb<cr>
