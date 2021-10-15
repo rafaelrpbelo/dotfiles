@@ -304,8 +304,8 @@ let g:AutoPairsShortcutToggle = '<F9>'
 let g:AutoPairsShortcutBackInsert = '<C-b>'
 let g:AutoPairsShortcutFastWrap = '<C-e>'
 let g:AutoPairsShortcutJump = '<C-n>'
-let g:AutoPairsFlyMode = 1
-"
+let g:AutoPairsFlyMode = 0
+
 " Ack
 let g:ackprg = 'ag --vimgrep'
 
