@@ -7,10 +7,14 @@ Plug 'hail2u/vim-css3-syntax'
 " File Finder
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope.nvim' |
+  \ Plug 'kyazdani42/nvim-web-devicons'
+
 Plug 'mileszs/ack.vim'
 Plug 'preservim/nerdtree' |
-  \ Plug 'Xuyuanp/nerdtree-git-plugin'
+  \ Plug 'Xuyuanp/nerdtree-git-plugin' |
+  \ Plug 'tiagofumo/vim-nerdtree-syntax-highlight' |
+  \ Plug 'ryanoasis/vim-devicons'
 
 " Intelisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
