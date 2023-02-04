@@ -271,11 +271,17 @@ let g:coc_global_extensions = [
   \ 'coc-cssmodules',
   \ 'coc-tabnine',
   \ 'coc-elixir',
-  \ 'coc-solargraph'
+  \ 'coc-solargraph',
+  \ 'coc-stylelint',
+  \ 'coc-stylelintplus',
+  \ 'coc-vetur',
   \ ]
 
 " coc-css settings
 autocmd FileType scss setl iskeyword+=@-@
+
+" coc highlight
+hi link CocFloating Normal
 
 " Support syntax highlight in very long files
 "   https://github.com/styled-components/vim-styled-components#breaking-syntax-highlighting-in-very-long-files
