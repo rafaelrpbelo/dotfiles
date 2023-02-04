@@ -33,6 +33,10 @@ gaps outer 10px
 # Borders
 default_border pixel 3px
 
+# Window's title bar
+for_window [all] title_window_icon padding 5px
+for_window [all] title_format ""
+
 # Binding special keys from Apple's keyboard F13-19
 bindcode 191 exec deepin-screenshot     # F13
 bindcode 192 exec google-chrome-stable  # F14
