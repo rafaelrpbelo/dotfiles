@@ -24,5 +24,5 @@ if [ "$DESKTOP_SESSION" = "i3" ]; then
 
 
     # Enable tapping to TouchPad
-    # xinput set-prop 13 292 1
+    xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 fi
