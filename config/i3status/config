@@ -20,43 +20,43 @@ order += "tztime ca"
 order += "tztime local"
 
 wireless _first_ {
-        format_up = " %essid %quality"
-        format_down = "down"
+        format_up = "   %essid %quality"
+        format_down = " 睊 "
 }
 
 ethernet _first_ {
         # if you use %speed, i3status requires root privileges
-        format_up = "E: %ip (%speed)"
-        format_down = 'no lan'
+        format_up = "   %speed"
+        format_down = "  "
 }
 
 battery 0 {
         format = "%status %percentage %remaining %emptytime"
-        format_down = "No battery"
-        status_chr = "⚡CHR"
-        status_bat = "🔋BAT"
-        status_unk = "? UNK"
-        status_full = ""
+        format_down = "  No battery"
+        status_chr = "  CHR"
+        status_bat = "  BAT"
+        status_unk = "  UNK"
+        status_full = " "
         path = "/sys/class/power_supply/BAT%d/uevent"
         low_threshold = 10
 }
 
 tztime local {
-        format = " %H:%M %d/%m/%Y"
+        format = " %H:%M  %d/%m/%Y"
 }
 
 tztime ca {
-        format = "CA: %H:%M"
+        format = " 🇨🇦  %H:%M"
         timezone = "Canada/Pacific"
 }
 
 disk "/" {
-        format = " %avail"
+        format = "  %avail "
 }
 
 volume master {
-        format = " %volume"
-        format_muted = " (%volume)"
+        format = "   %volume "
+        format_muted = "  (%volume) "
         mixer = "Master"
         mixer_idx = 0
 }
