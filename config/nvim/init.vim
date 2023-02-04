@@ -89,9 +89,7 @@ let g:solarized_termcolors=256
 call togglebg#map("<F11>")
 
 " === GitGutter ===
-highlight SignColumn ctermbg=235
-let g:gitgutter_override_sign_column_highlight = 0
-let g:gitgutter_set_sign_backgrounds = 0
+highlight! link SignColumn LineNr
 let g:gitgutter_grep = 'ag'
 let g:gitgutter_preview_win_floating = 1
 set signcolumn=yes
@@ -120,12 +118,12 @@ set shortmess+=c
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
-if has("nvim-0.5.0") || has("patch-8.1.1564")
-  " Recently vim can merge signcolumn and number column into one
-  set signcolumn=number
-else
-  set signcolumn=yes
-endif
+" if has("nvim-0.5.0") || has("patch-8.1.1564")
+"   " Recently vim can merge signcolumn and number column into one
+"   set signcolumn=number
+" else
+"   set signcolumn=yes
+" endif
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
