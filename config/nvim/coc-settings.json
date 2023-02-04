@@ -1,4 +1,29 @@
 {
   "coc.preferences.jumpCommand": "tab drop",
-  "eslint.autoFixOnSave": false
+  "eslint.autoFixOnSave": false,
+  "eslint.packageManager": "yarn",
+  "solargraph.diagnostics": true,
+  "typescript.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "javascript.preferences.quoteStyle": "double",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "suggest.floatConfig": {
+    "border": true,
+    "focusable": true
+  },
+  "diagnostic.floatConfig": {
+    "border": true,
+    "focusable": true
+  },
+  "signature.floatConfig": {
+    "border": true,
+    "focusable": true
+  },
+  "hover.floatConfig": {
+    "border": true,
+    "focusable": true
+  }
 }
