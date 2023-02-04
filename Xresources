@@ -1,4 +1,6 @@
-xterm*faceName: xft:Hack:size=9:antialias=true,xfg:FontAwesome:hinting=true:size=9
+xterm*faceName: xft:Hack Nerd Font:size=9:antialias=true,
+                xft:Nimbus Sans:size=9
+xterm*renderFont: true
 
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 
