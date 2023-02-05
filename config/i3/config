@@ -39,7 +39,7 @@ for_window [all] title_format ""
 
 # Binding special keys from Apple's keyboard F13-19
 bindcode 191 exec deepin-screenshot     # F13
-bindcode 192 exec google-chrome-stable  # F14
+bindcode 192 exec firefox               # F14
 bindcode 193 exec thunar                # F15
 bindcode 194 exec spotify               # F16
 
@@ -178,7 +178,7 @@ bindsym $mod+r mode "resize"
 
 mode "apps-shortcuts" {
         bindsym f exec thunar
-        bindsym g exec google-chrome-stable
+        bindsym g exec firefox
         bindsym m exec deepin-screenshot
         bindsym s exec spotify
         bindsym t exec i3-sensible-terminal
