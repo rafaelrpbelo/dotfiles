@@ -27,11 +27,13 @@ font xft:Hack Nerd Font 9
 # font, it doesn’t scale on retina/hidpi displays.
 
 # Gaps
-gaps inner 10px
-gaps outer 10px
+gaps inner 8px
+gaps outer 5px
 
 # Borders
+smart_borders on
 default_border pixel 3px
+default_floating_border none
 
 # Window's title bar
 for_window [all] title_window_icon padding 5px
