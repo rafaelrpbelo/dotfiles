@@ -40,6 +40,9 @@ for_window [all] title_window_icon padding 5px
 for_window [all] title_format "%title"
 title_align center
 
+# Specific windows' settings
+for_window [class="Enpass"] floating enable
+
 # Binding special keys from Apple's keyboard F13-19
 bindcode 191 exec deepin-screenshot     # F13
 bindcode 192 exec firefox               # F14
