@@ -84,7 +84,7 @@ command! Irb FloatermNew irb
 command! NERDTreeCloseAll tabdo NERDTreeClose
 
 " === Color scheme ===
-set background=dark
+set background=light
 colorscheme solarized
 let g:solarized_termcolors=256
 call togglebg#map("<F11>")
