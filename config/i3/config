@@ -37,11 +37,12 @@ default_floating_border none
 
 # Window's title bar
 for_window [all] title_window_icon padding 5px
-for_window [all] title_format "%title"
+for_window [all] title_format "%title %class"
 title_align center
 
 # Specific windows' settings
-for_window [class="Enpass"] floating enable
+for_window [class="Enpass"] floating enable, resize set 400 800, move position center
+for_window [class="Galculator"] floating enable, resize set 260 300, move position center
 
 # Binding special keys from Apple's keyboard F13-19
 bindcode 191 exec deepin-screenshot     # F13
