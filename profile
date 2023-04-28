@@ -18,7 +18,7 @@ if [ "$DESKTOP_SESSION" = "i3" ]; then
     #xrandr --output LVDS-1 --right-of DP-3 --output DP-3 --auto # Enable secondary montior to left side
     # LEFT
     #xrandr --output LVDS-1 --left-of DP-3 --output DP-3 --auto # Enable secondary montior to left side
-    xrandr --output LVDS-1 --left-of HDMI-2 --output HDMI-2 --auto # Enable secondary montior to left side
+    xrandr --output LVDS-1 --right-of HDMI-2 --output HDMI-2 --auto # Enable secondary montior to left side
     # MIRROR
     #xrandr --output LVDS-1 --same-as DP-3 --output DP-3 --auto # Enable secondary monitor as a clone
 
