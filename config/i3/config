@@ -29,6 +29,7 @@ font xft:Hack Nerd Font 9
 # Gaps
 gaps inner 8px
 gaps outer 5px
+smart_gaps on
 
 # Borders
 smart_borders on
